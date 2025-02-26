@@ -173,8 +173,14 @@ footer {
     }
 
     .produtos-lista li {
-        width: 580px;
+        width: 100%;
     }
+
+    .produtos-lista {
+        display: grid;
+        grid-template-columns: repeat(2, 48.5%);
+        gap: 1rem;
+    } 
 
 }
 
